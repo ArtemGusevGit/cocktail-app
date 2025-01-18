@@ -49,7 +49,7 @@
 
 <style scoped>
   .card-img-wrapper {
-    min-width: 200px;
+    min-width: 180px;
     height: 200px;
   }
 
