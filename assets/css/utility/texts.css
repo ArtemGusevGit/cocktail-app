@@ -1,0 +1,19 @@
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: 800;
+}
+
+.text-ellipsis {
+    text-overflow: ellipsis;
+}
+
+.text-no-wrap {
+    white-space: nowrap;
+}
+
+.text-colored {
+    color: var(--color-text);
+}

@@ -1,0 +1,16 @@
+@import 'base.css';
+@import 'reset.css';
+@import 'scrollbar.css';
+
+.hidden {
+    overflow: hidden;
+}
+
+.unreachable {
+    user-select: none;
+    pointer-events: none;
+}
+
+.d-none {
+    display: none;
+}
