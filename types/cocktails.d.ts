@@ -1,4 +1,4 @@
-export interface Cocktail {
+export type Cocktail = {
   id: string
   name: string
   category: string
