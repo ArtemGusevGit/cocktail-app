@@ -1,13 +1,13 @@
-export interface RawDrink {
+export type RawDrink = {
   idDrink: string
   strDrink: string
-  strCategory: string | null
-  strAlcoholic: string | null
-  strGlass: string | null
-  strInstructions: string | null
-  strDrinkThumb: string | null
+  strCategory: string
+  strAlcoholic: string
+  strGlass: string
+  strInstructions: string
+  strDrinkThumb: string
 
-  [key: `strMeasure${number}`]: string | null
+  [key: `strMeasure${number}`]: string
 
-  [key: `strIngredient${number}`]: string | null
+  [key: `strIngredient${number}`]: string
 }
