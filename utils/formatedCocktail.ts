@@ -1,7 +1,7 @@
 import type { RawDrink } from '~/types/rawDrinks'
 import type { Cocktail } from '~/types/cocktails'
 
-export const formatedCocktail = (drink: RawDrink) => {
+export const formatedCocktail = (drink: RawDrink): Cocktail => {
   return {
     id: drink.idDrink,
     name: drink.strDrink,
@@ -16,5 +16,5 @@ export const formatedCocktail = (drink: RawDrink) => {
         ingredient: drink[`strIngredient${i + 1}`],
       }))
       .filter(({ ingredient }) => ingredient),
-  } as Cocktail
+  }
 }
